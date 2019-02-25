@@ -1,2 +1,2 @@
 # GEN
-Repositório do Projeto Integrador
+Projeto Integrador
