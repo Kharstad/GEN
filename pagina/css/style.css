@@ -6,7 +6,7 @@
 	background: linear-gradient(to bottom, #ff3f3f 0%,#375666 99%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3f3f', endColorstr='#375666',GradientType=0 );
 	border-radius: 20px;
-	width: 1400px;
+	width: 100%;
 	margin: 0 auto; 
 }
 .button-top{
@@ -19,8 +19,21 @@ body{
 	background-image: url("../imgs/bg.jpg");
 }
 .carousel{
-	width: 1400px;
-	height: 500px;
-	padding: 10px;
+	width: 900px;
+	height: 600px;
+	padding: 5px;
 	margin: 0 auto;
+}
+.carro{
+	width: 700px;
+	height: 500px;	
+}
+.nav-index{
+	margin-top: 40px;
+}
+.topo{
+	border-radius: 20px;
+	margin-top: 80px;
+	border: solid 1px;
+	padding: 40px;
 }

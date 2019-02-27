@@ -13,39 +13,54 @@
     <title>GEN</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar fixed-top navbar-dark bg-dark menu col-sm-12">
-        <a class="navbar-brand" href="#">Menu</a>
-        <button class="navbar-toggler button-top" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Cadastrar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Contato</a>
-            </li>
-          </ul>
+    <head>
+      <div class="row">
+        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 topo">
+          
         </div>
+        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+      </div>
+    </head>
+    <div class="container-fluid nav-index">
+      <div class="row"></div>
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+        <nav class="navbar fixed-top navbar-dark bg-dark menu hidden-sm-down col-md-10 col-lg-10 col-xl-10">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler button-top" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Cadastrar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+    </div>
       </nav>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="row">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-10 col-lg-10 col-xl-10" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="imgs/img1.jpeg" class="d-block w-100 carro" alt="Smiley face">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="imgs/img2.jpeg" class="d-block w-100 carro" alt="Smiley face">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="imgs/img3.jpeg" class="d-block w-100 carro" alt="Smiley face">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -56,12 +71,6 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Próximo</span>
         </a>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          This is some text within a card body.
-        </div>
-      </div>
     </div>
     
 
