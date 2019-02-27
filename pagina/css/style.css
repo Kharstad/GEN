@@ -1,0 +1,15 @@
+.menu{
+	background-color: http://colorzilla.com/gradient-editor/#ff3f3f+0,375666+99 */
+	background: #ff3f3f;
+	background: -moz-linear-gradient(top, #ff3f3f 0%, #375666 99%);
+	background: -webkit-linear-gradient(top, #ff3f3f 0%,#375666 99%);
+	background: linear-gradient(to bottom, #ff3f3f 0%,#375666 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3f3f', endColorstr='#375666',GradientType=0 );
+	border-radius: 20px; 
+}
+.button-top{
+	background: rgb(2,0,36);
+	background: -webkit-linear-gradient(bottom, rgba(2,0,36,0) 0%, rgba(0,0,0,0.835171568627451) 100%);
+	background: -o-linear-gradient(bottom, rgba(2,0,36,0) 0%, rgba(0,0,0,0.835171568627451) 100%);
+	background: linear-gradient(to top, rgba(2,0,36,0) 0%, rgba(0,0,0,0.835171568627451) 100%);
+}
