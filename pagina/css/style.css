@@ -7,7 +7,8 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3f3f', endColorstr='#375666',GradientType=0 );
 	border-radius: 20px;
 	width: 100%;
-	margin: 0 auto; 
+	margin: 0 auto;
+	padding: 20px; 
 }
 .button-top{
 	background: rgb(2,0,36);
@@ -19,21 +20,25 @@ body{
 	background-image: url("../imgs/bg.jpg");
 }
 .carousel{
-	width: 900px;
-	height: 600px;
-	padding: 5px;
-	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
 }
-.carro{
-	width: 700px;
-	height: 500px;	
+img{
+	max-width: 1200px;
+	max-height: 600px;
+	margin: 0 auto;
+	text-align: center;	
 }
 .nav-index{
 	margin-top: 40px;
 }
 .topo{
 	border-radius: 20px;
-	margin-top: 80px;
+	margin-top: 20px;
 	border: solid 1px;
 	padding: 40px;
+	width: 100%;
+}
+.carroimg{
+	min-height: 20%;
 }
