@@ -31,7 +31,8 @@ img{
 .topo{
 	border-radius: 20px;
 	margin-top: 20px;
-	border: solid 1px;
+	border:10px outset #ce2e2e;
+;
 	padding: 30px;
 	width: 100%;
 	text-align: center;
