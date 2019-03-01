@@ -39,7 +39,10 @@
             </ul>
           </div>
         </nav>
-        <form name="form_cad_clie" method="POST" action="cadastrar_cliente.php" class="cad">
+        <div class="row">
+        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+        <form name="form_cad_clie" method="POST" action="cadastrar_cliente.php" class="cad col-sm-10 col-md-10 col-lg-10 col-xl-10">
+          <fieldset class="cad">
           <input type="text" name="nome" placeholder="Nome"><p></p>
           <input type="text" name="sobrenome" placeholder="Sobrenome"><p></p>
           <input type="text" name="login" placeholder="Login"><p></p>
@@ -88,7 +91,10 @@
           </select><p></p>
           <input type="number" name="cep" placeholder="CEP"><p></p>
           <input type="submit" value="Cadastrar" class="cadastrar"  onclick="return validar()">
-        </form>      
+          </fieldset>
+        </form>
+        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+        </div>      
     </div>
 
     <!-- Optional JavaScript -->

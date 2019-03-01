@@ -56,22 +56,24 @@ img{
 	background: linear-gradient(to top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
 }
 .cad{
-	border: solid 1px;
-	margin-top: 150px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 	text-align: center;
+	width: 50%;
+	display: inline-block;
 }
 select{
-	width: 29%;
+	width: 50%;
 	text-align: center;
 }
 option{
-	width: 13%;
+	width: 50%;
 	text-align: center;
 }
 input{
 	border-radius: 10px;
 	text-align: center;
-	width: 30%;
+	width: 50%;
 }
 .cadastrar {
 	-moz-box-shadow:inset -2px 2px 0px 1px #54a3f7;
