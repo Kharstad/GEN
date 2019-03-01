@@ -59,12 +59,15 @@ img{
 	text-align: center;
 }
 select{
-	width: 13%;
+	width: 29%;
+	text-align: center;
 }
 option{
 	width: 13%;
+	text-align: center;
 }
 input{
-	border-radius: 20px;
+	border-radius: 10px;
 	text-align: center;
+	width: 30%;
 }

@@ -42,13 +42,13 @@
         <form name="form_cad_clie" method="POST" action="cadastrar_cliente.php" class="cad">
           <input type="text" name="nome" placeholder="Nome"><p></p>
           <input type="text" name="sobrenome" placeholder="Sobrenome"><p></p>
-          <input type="text" name="login" placeholder="Sobrenome"><p></p>
+          <input type="text" name="login" placeholder="Login"><p></p>
           <input type="password" name="senha" placeholder="Senha"><p></p>
           <input type="number" name="telefone" placeholder="Telefone"><p></p>
           <input type="email" name="email" placeholder="E-mail"><p></p>
           <input type="text" name="empresa" placeholder="Nome da Empresa"><p></p>
           <select name="tipo_logradouro">
-                    <option>Tipo Logradouro</option>
+                    <option value="">Tipo Logradouro</option>
                     <option>Rua</option>
                     <option>Avenida</option>
                     <option>Condomínio</option>
@@ -57,7 +57,7 @@
           <input type="text" name="logradouro" placeholder="Logradouro"><p></p>
           <input type="text" name="bairro" placeholder="Bairro"><p></p>
           <select name="estado">
-            <option>Estado</option>
+            <option value="">Estado</option>
             <option>Acre - AC</option>
             <option>Alagoas - AL</option>
             <option>Amapá - AP</option>
@@ -89,7 +89,10 @@
                 <input type="number" name="cep" placeholder="CEP"><p></p>
         </form>      
     </div>
-    
+    <!-- PHP -->
+      <?php
+        
+      ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
