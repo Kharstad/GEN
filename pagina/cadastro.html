@@ -43,23 +43,28 @@
         <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
         <form name="form_cad_clie" method="POST" action="cadastrar_cliente.php" class="cad col-sm-10 col-md-10 col-lg-10 col-xl-10">
           <fieldset class="cad">
-          <input type="text" name="nome" placeholder="Nome"><p></p>
-          <input type="text" name="sobrenome" placeholder="Sobrenome"><p></p>
-          <input type="text" name="login" placeholder="Login"><p></p>
-          <input type="password" name="senha" placeholder="Senha"><p></p>
-          <input type="number" name="telefone" placeholder="Telefone"><p></p>
-          <input type="email" name="email" placeholder="E-mail"><p></p>
-          <input type="text" name="empresa" placeholder="Nome da Empresa"><p></p>
-          <select name="tipo_logradouro">
+          <legend>Dados do Cliente</legend>
+          <input type="text" name="nome" required placeholder="Nome"><p></p>
+          <input type="text" name="sobrenome" required placeholder="Sobrenome"><p></p>
+          <input type="text" name="login" required placeholder="Login"><p></p>
+          <input type="password" name="senha" required placeholder="Senha"><p></p>
+          </fieldset>
+          <fieldset class="cad">
+          <legend>Dados da Empresa</legend>
+          <input type="number" name="telefone" required placeholder="Telefone"><p></p>
+          <input type="email" name="email" required placeholder="E-mail"><p></p>
+          <input type="text" name="empresa" required placeholder="Nome da Empresa"><p></p>
+          <select name="tipo_logradouro" required>
                     <option value="">Tipo Logradouro</option>
                     <option>Rua</option>
                     <option>Avenida</option>
                     <option>Condomínio</option>
                     <option>Alameda</option>
           </select><p></p>
-          <input type="text" name="logradouro" placeholder="Logradouro"><p></p>
-          <input type="text" name="bairro" placeholder="Bairro"><p></p>
-          <select name="estado">
+          <input type="text" name="logradouro" required placeholder="Logradouro"><p></p>
+          <input type="number" name="numero" required placeholder="Numero de Endereço"><p></p>
+          <input type="text" name="bairro" required placeholder="Bairro"><p></p>
+          <select name="estado" required>
             <option value="">Estado</option>
             <option>Acre - AC</option>
             <option>Alagoas - AL</option>
@@ -89,12 +94,12 @@
             <option>Sergipe - SE</option>
             <option>Tocantins - TO</option>
           </select><p></p>
-          <input type="number" name="cep" placeholder="CEP"><p></p>
-          <input type="submit" value="Cadastrar" class="cadastrar"  onclick="return validar()">
+          <input type="number" required name="cep" placeholder="CEP"><p></p>
           </fieldset>
+          <input type="submit" value="Cadastrar" class="cadastrar"  onclick="return validar()">
         </form>
         <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-        </div>      
+      </div>      
     </div>
 
     <!-- Optional JavaScript -->
@@ -102,7 +107,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
      //Jquery//
 
-     $("input").prop('required',true);
+
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
