@@ -114,3 +114,17 @@ input{
 	position:relative;
 	top:1px;
 }
+.login{
+	margin-top: 140px;
+	border: solid 1px;
+	padding: 10px;
+	text-align: center;
+	display: block;
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.64);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.64);
+	box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.64);
+	border-radius: 20px;
+}
+.login, input{
+	width: 50%;
+}
