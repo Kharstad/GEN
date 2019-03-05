@@ -116,6 +116,7 @@ input{
 }
 .login{
 	margin-top: 140px;
+	margin-bottom: 100%;
 	border: solid 1px;
 	padding: 10px;
 	text-align: center;
@@ -127,4 +128,9 @@ input{
 }
 .login, input{
 	width: 50%;
+	flex-grow: 2;
+}
+.lgndcad{
+	font-weight: bold;
+	text-decoration: underline
 }
