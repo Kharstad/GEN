@@ -14,8 +14,6 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 71%, rgba(129,0,0,1) 100%);
 body{
 	background-image: url("../imgs/bg.jpg");
 	margin: 0 auto;
-	height: 100%;
-	background-size: cover;
 }
 .carousel{
 	margin-top: 60px;
@@ -34,6 +32,7 @@ img{
 	border-radius: 20px;
 	margin-top: 20px;
 	border:10px outset #ce2e2e;
+;
 	padding: 30px;
 	width: 100%;
 	text-align: center;
@@ -41,10 +40,7 @@ img{
 	-moz-box-shadow: 7px 7px 20px 4px rgba(0,0,0,0.8);
 	box-shadow: 7px 7px 20px 4px rgba(0,0,0,0.8);
 	background-color: #FFF;
-}
-.logo{
-	max-height: 150px;
-	max-width: 150px;
+
 }
 .carroimg{
 	min-height: 20%;
@@ -54,83 +50,4 @@ img{
 	background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
 	background: -o-linear-gradient(bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
 	background: linear-gradient(to top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
-}
-.cad{
-	margin-top: 50px;
-	margin-bottom: 30px;
-	text-align: center;
-	width: 80%;
-	display: inline-block;
-	flex-grow: 2;
-}
-select{
-	width: 50%;
-	text-align: center;
-}
-option{
-	width: 50%;
-	text-align: center;
-}
-input{
-	border-radius: 10px;
-	text-align: center;
-}
-.cadastrar {
-	-moz-box-shadow:inset -2px 2px 0px 1px #54a3f7;
-	-webkit-box-shadow:inset -2px 2px 0px 1px #54a3f7;
-	box-shadow:inset -2px 2px 0px 1px #54a3f7;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
-	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
-	background-color:#007dc1;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
-	border:5px solid #124d77;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	padding:10px 20px;
-	text-decoration:none;
-	text-shadow:0px 3px 0px #154682;
-}
-.cadastrar:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
-	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
-	background-color:#0061a7;
-}
-.cadastrar:active {
-	position:relative;
-	top:1px;
-}
-.login{
-	margin-top: 140px;
-	margin-bottom: 100%;
-	border: solid 1px;
-	padding: 10px;
-	text-align: center;
-	display: block;
-	-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.64);
-	-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.64);
-	box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.64);
-	border-radius: 20px;
-}
-.login, input{
-	width: 50%;
-	flex-grow: 2;
-}
-.lgndcad{
-	font-weight: bold;
-	text-decoration: underline
 }
