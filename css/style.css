@@ -134,3 +134,36 @@ input{
 	font-weight: bold;
 	text-decoration: underline
 }
+.first{
+	margin-top: 120px;
+}
+.ficha{
+	flex-grow: 2;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
+li{
+	text-align: left;
+}
+.imgficha{
+	max-width: 250px;
+	max-height: 250px;
+	border-radius: 10%;
+}
+.dados{
+	border-radius: 40px 40px 40px 40px;
+	-moz-border-radius: 40px 40px 40px 40px;
+	-webkit-border-radius: 40px 40px 40px 40px;
+	border: 10px outset #ffffff;
+	background-color: #d6d6d6;
+	padding-right:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.titulo{
+	border-bottom: solid #a8a8a8 1px;
+	color: #000000;
+	border-top: solid #a8a8a8 1px;
+}
