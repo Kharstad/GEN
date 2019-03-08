@@ -109,7 +109,7 @@
           <p style="text-align: center; margin: 0 auto; color: #fff;">CEP</p>
           <input type="number" required name="cep"><p></p>
           </fieldset>
-          <input type="submit" value="Cadastrar" class="cadastrar"  onclick="return validar()">
+          <input type="submit" value="Cadastrar" name="cadastrar" class="cadastrar"  onclick="return validar()">
         </form>
         <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
       </div>
